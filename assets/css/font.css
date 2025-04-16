@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Montreal Regular';
+    src: url('../font/Montreal-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montreal Bold';
+    src: url('../font/Montreal-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Editorial Regular';
+    src: url('../font/EditorialNew-Regular.otf') format('opentype');
+}

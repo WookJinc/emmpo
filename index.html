@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmpo</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://unpkg.com/lenis@1.1.21/dist/lenis.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="preload">
+                <div class="img-wrapper">
+                    <img src="./assets/images/main_bg.png" alt="main-image">
+                </div>
+                <div class="text-area">
+                    <strong class="title">EMMPO</strong>
+                    <span class="percent">0</span>
+                </div>
+        </div>
+        <header id="header">
+            <h2 class="blind">Emmpo header</h2>
+            <a href="#" class="title link">
+                <span class="hover-wrap">
+                    <span class="line line1" data-split='true'>EMMPO</span>
+                    <span class="line line2" data-split='true'>EMMPO</span>
+                </span>
+            </a>
+            <ul class="util-list">
+                <li class="util-item link">
+                    <span class="hover-wrap">
+                        <span class="line line1" data-split='true'>Why?</span>
+                        <span class="line line2" data-split='true'>Why?</span>
+                    </span>
+                </li>
+                <li class="util-item link">
+                    <span class="hover-wrap">
+                        <span class="line line1" data-split='true'>How?</span>
+                        <span class="line line2" data-split='true'>How?</span>
+                    </span>
+                </li>
+                <li class="util-item link">
+                    <span class="hover-wrap">
+                        <span class="line line1" data-split='true'>What?</span>
+                        <span class="line line2" data-split='true'>What?</span>
+                    </span>
+                </li>
+                <li class="util-item link">
+                    <span class="hover-wrap">
+                        <span class="line line1" data-split='true'>About us</span>
+                        <span class="line line2" data-split='true'>About us</span>
+                    </span>
+                </li>
+                <li class="util-item link">
+                    <span class="hover-wrap">
+                        <span class="line line1" data-split='true'>Say Hello!</span>
+                        <span class="line line2" data-split='true'>Say Hello!</span>
+                    </span>
+                </li>
+            </ul>
+            <a href="#" class="util-link">
+                <span class="hover-wrap">
+                    <span class="line line1" data-split='true'>Our courses</span>
+                    <span class="line line2" data-split='true'>Our courses</span>
+                </span>
+            </a>
+            <div class="util-m">
+                <a href="#" class="link-courses">Courses</a>
+                <a href="#" class="link-menu">MENU</a>
+            </div>
+        </header>
+        <main id="container">
+            <section class="sc-career">
+                <picture class="bg">
+                    <source media="(min-width: 768px)" srcset="./assets/images/main_bg.png">
+                    <source media="(min-width: 320px)" srcset="./assets/images/main-m_bg.png">
+                    <img src="./assets/images/main_bg.png" alt="career main background image">
+                </picture>
+                <div class="main-group">
+                    <div class="text-area">
+                        <strong class="title" data-split='true'>your career</strong>
+                        <div class="desc" data-split='true'>
+                            <span>journey</span>
+                            <span>start here</span>
+                        </div>
+                        <div class="desc-sub" data-split='true'>
+                            <p>Guiding You through Career</p>
+                            <p>choices and Relevant degrees</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-explore-where">
+                <div class="title-group">
+                    <div class="img-wrapper">
+                        <img src="./assets/images/xxx.png" alt="xxx">
+                    </div>
+                    <div class="inner">
+                        <h2 class="title" data-split='true'>
+                            EXPLORE <br> <span class="highlight">CAREERS</span> WHERE <br> YOU CAN MAKE <br> A
+                            DIFFERENCE!
+                        </h2>
+                        <div class="img-area" data-motion='down' data-parent=".sc-explore-where .title-group">
+                            <img src="./assets/images/explore_1.png" alt="model">
+                            <!-- <img src="./assets/images/dare-to.png" alt="explore-2 image" data-motion='up' data-y="-1100" > -->
+                            <img src="./assets/images/dare-to.png" alt="dare to explore">
+                        </div>
+                    </div>
+                </div>
+                <div class="img-group">
+                    <div class="inner">
+                        <div class="col-1">
+                            <div class="img-wrapper" data-motion='down' data-parent=".sc-explore-where .img-group">
+                                <img src="./assets/images/explore_2.png" alt="model">
+                                <img src="./assets/images/dream-big.png" alt="dream big" data-motion='up'>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="contents-wrapper" data-motion='down' data-parent=".sc-explore-where .img-group">
+                                <div class="img-wrapper">
+                                    <img src="./assets/images/explore_3.png" alt="model">
+                                </div>
+                                <div class="text-area">
+                                    <p class="title">Through our Career <br>Gudiance Quiz</p>
+                                    <p class="desc">You find the careers that you would <br>most likely Enjoy and are
+                                        good
+                                        at.
+                                    </p>
+                                </div>
+                                <div class="img-wrapper">
+                                    <img src="./assets/images/love.png" alt="love">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="img-wrapper" data-motion='down' data-parent=".sc-explore-where .img-group">
+                                <img src="./assets/images/explore_4.png" alt="model">
+                                <img src="./assets/images/passion-powered.png" alt="passion powered futures"
+                                    data-motion='up'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="related-group">
+                    <span class="desc">All related to</span>
+                    <strong class="title" data-split='true'>Creativity, <br>Sustainability, <br>and Tech.</strong>
+                    <a href="#" class="link">[
+                        <span class="hover-wrap">
+                            <span class="line line1" data-split='true'>TAKE THE QUIZ</span>
+                            <span class="line line2" data-split='true'>TAKE THE QUIZ</span>
+                        </span>]
+                    </a>
+                    <div class="img-wrapper" data-y="-400">
+                        <img src="./assets/images/four-cuts_1.png" alt="four cut">
+                    </div>
+                    <div class="img-wrapper" data-y="-400">
+                        <img src="./assets/images/four-cuts_2.png" alt="four cut">
+                    </div>
+                </div>
+            </section>
+            <section class="sc-explore-exciting">
+                <div class="bg">
+                    <div class="img-wrapper active"><img src="./assets/images/exciting-bg_1.png" alt="exciting-1"></div>
+                    <div class="img-wrapper"><img src="./assets/images/exciting-bg_2.png" alt="exciting-2"></div>
+                    <div class="img-wrapper"><img src="./assets/images/exciting-bg_3.png" alt="exciting-3"></div>
+                    <div class="img-wrapper"><img src="./assets/images/exciting-bg_4.png" alt="exciting-4"></div>
+                    <div class="img-wrapper"><img src="./assets/images/exciting-bg_5.png" alt="exciting-5"></div>
+                </div>
+                <div class="inner">
+                    <h2 class="title" data-split='true'>EXPLORE EXCITING <br>CAREERS LIKE:</h2>
+                    <ul class="list">
+                        <li class="item show">
+                            <span class="number">0</span>
+                            <div class="active-area link">
+                                <span class="hover-wrap">
+                                    <span class="text line line1" data-split='true'>[Multimeida <span
+                                            class="text-vac"></span> artist]</span>
+                                    <span class="text line line2" data-split='true'>[Multimeida <span
+                                            class="text-vac"></span> artist]</span>
+                                </span>
+                                <div class="img-area">
+                                    <img src="./assets/images/exciting-item_1.png" alt="model">
+                                </div>
+                            </div>
+                            <span class="number">1</span>
+                        </li>
+                        <li class="item">
+                            <span class="number">0</span>
+                            <div class="active-area link">
+                                <span class="hover-wrap">
+                                    <span class="text line line1" data-split='true'>[Sustainable <span
+                                            class="text-vac"></span> fashion]</span>
+                                    <span class="text line line2" data-split='true'>[Sustainable <span
+                                            class="text-vac"></span> fashion]</span>
+                                </span>
+                                <div class="img-area">
+                                    <img src="./assets/images/exciting-item_2.png" alt="model">
+                                </div>
+                            </div>
+                            <span class="number">2</span>
+                        </li>
+                        <li class="item">
+                            <span class="number">0</span>
+                            <div class="active-area link">
+                                <span class="hover-wrap">
+                                    <span class="text line line1" data-split='true'>[Renewable <span
+                                            class="text-vac"></span> energy]</span>
+                                    <span class="text line line2" data-split='true'>[Renewable <span
+                                            class="text-vac"></span> energy]</span>
+                                </span>
+                                <div class="img-area">
+                                    <img src="./assets/images/exciting-item_3.png" alt="model">
+                                </div>
+                            </div>
+                            <span class="number">3</span>
+                        </li>
+                        <li class="item">
+                            <span class="number">0</span>
+                            <div class="active-area link">
+                                <span class="hover-wrap">
+                                    <span class="text line line1" data-split='true'>[Environmental <span
+                                            class="text-vac"></span> marketing]</span>
+                                    <span class="text line line2" data-split='true'>[Environmental <span
+                                            class="text-vac"></span> marketing]</span>
+                                </span>
+                                <div class="img-area">
+                                    <img src="./assets/images/exciting-item_4.png" alt="model">
+                                </div>
+                            </div>
+                            <span class="number">4</span>
+                        </li>
+                        <li class="item">
+                            <span class="number">0</span>
+                            <div class="active-area link">
+                                <span class="hover-wrap">
+                                    <span class="text line line1" data-split='true'>[Green <span
+                                            class="text-vac"></span> enterpreneurship]</span>
+                                    <span class="text line line2" data-split='true'>[Green <span
+                                            class="text-vac"></span> enterpreneurship]</span>
+                                </span>
+                                <div class="img-area">
+                                    <img src="./assets/images/exciting-item_5.png" alt="model">
+                                </div>
+                            </div>
+                            <span class="number">5</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-discover">
+                <div class="bg">
+                    <img src="./assets/images/discover_bg.png" alt="model">
+                </div>
+                <div class="inner">
+                    <h2 class="title" data-split='true'>DISCOVER YOUR <br>FUTURE!</h2>
+                    <p class="subtitle">Find which careers match <br>your personality.</p>
+                    <p class="text">Take the Quiz and receive <br>recommendations just <br>for You!</p>
+                    <p class="caption">YOU WILL GET: </p>
+                    <div class="discover-group">
+                        <div class="img-wrapper">
+                            <img src="./assets/images/discover-1.png" alt="down arrow">
+                        </div>
+                        <div class="img-wrapper" data-motion='down' data-parent=".sc-discover" data-start="25% 30%"
+                            data-y="-700">
+                            <img src="./assets/images/discover-2.png" alt="model">
+                            <p><span class="highlight">Top15+</span> tech and sustainability <br>careers for your
+                                personality.</p>
+                        </div>
+                        <div class="img-wrapper" data-motion='down' data-parent=".sc-discover" data-start="25% 30%"
+                            data-y="-700">
+                            <img src="./assets/images/discover-3.png" alt="model">
+                            <p><span class="highlight">Relevant degree</span> options for <br>each recommended career!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-science">
+                <div class="inner">
+                    <h2 class="title" data-split='true'>THE <span class="highlight">SCIENCE</span> <br>BEHIND THE QUIZ
+                    </h2>
+                    <div class="text-area">
+                        <div class="desc">
+                            <p class="highlight">We leverage a model that is based on</p>
+                            <p>vocational psychology research that has been validated in studies repeatedly during the
+                                last 50
+                                years, making it a <span class="italic">scientifically grounded tool for career</span>
+                                assessment and guidance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="science-group">
+                    <div class="bg">
+                        <img src="./assets/images/science_bg.png" alt="design your">
+                    </div>
+                    <div class="inner">
+                        <div class="img-wrapper col-1" data-motion='down' data-parent=".science-group"
+                            data-start="0% 25%">
+                            <img src="./assets/images/science_1.png" alt="model">
+                            <img src="./assets/images/dare-to-achive.png" alt="dare to achive">
+                        </div>
+                        <div class="img-wrapper col-2" data-motion='down' data-parent=".science-group"
+                            data-start="0% 25%">
+                            <img src="./assets/images/science_2.png" alt="model">
+                            <img src="./assets/images/x.png" alt="x" class="sm">
+                            <img src="./assets/images/trust-in-science.png" alt="trust in science">
+                        </div>
+                        <div class="img-wrapper col-3" data-motion='down' data-parent=".science-group"
+                            data-start="0% 25%">
+                            <img src="./assets/images/science_3.png" alt="model">
+                            <img src="./assets/images/design-your-dream.png" alt="design your dream">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-person">
+                <div class="bg">
+                    <img src="./assets/images/person_bg.png" alt="model">
+                </div>
+                <div class="inner">
+                    <h2 class="title" data-split='true'>THE PERSON <br>BEHIND THE QUIZ</h2>
+                    <div class="img-group">
+                        <div class="col-1">
+                            <div class="img-wrapper" data-motion='down' data-parent=".sc-person" data-start="0% 30%">
+                                <img src="./assets/images/person_1.png" alt="model">
+                                <img src="./assets/images/pin.png" alt="pin">
+                            </div>
+                            <div class="img-wrapper" data-motion='down' data-parent=".sc-person" data-start="0% 30%">
+                                <img src="./assets/images/person_2.png" alt="model">
+                                <img src="./assets/images/you-are-enough.png" alt="your enough" class="sm">
+                                <img src="./assets/images/love.png" alt="love" class="sm">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="./assets/images/person_3.png" alt="model">
+                            <a href="#" class="highlight">Follow my Instagram</a>
+                        </div>
+                    </div>
+                    <p class="sub" data-split='true'>HEY THERE!</p>
+                </div>
+            </section>
+            <section class="sc-talent">
+                <div class="inner">
+                    <h2 class="title" data-split='true'>
+                        IT'S GREAT TO SEE YOU <br>ON <span class="highlight">YOUR JOURNEY</span>
+                        TO <br>DISCOVERING YOUR
+                    </h2>
+                    <div class="img-wrapper row-1">
+                        <img src="./assets/images/talents.png" alt="talents">
+                    </div>
+                    <div class="text-area-1">
+                        <p class="sub-title highlight">I kicked off my journey</p>
+                        <p class="desc">
+                            studying Politics and Law, worked as <br>human rights advocacy - only to realize
+                            <br><span class="italic">my true passion lies in Creativity.</span>
+                        </p>
+                        <div class="img-wrapper" data-motion='down' data-parent=".sc-talent" data-start="0% 30%">
+                            <img src="./assets/images/talent_1.png" alt="model">
+                            <span>Now, I'm all about helping <br>you thrive!</span>
+                        </div>
+                        <div class="img-wrapper" data-motion='down' data-parent=".sc-talent" data-start="0% 30%">
+                            <img src="./assets/images/talent_2.png" alt="event">
+                            <img src="./assets/images/dream-creatively.png" alt="dream creatively">
+                        </div>
+                    </div>
+                    <div class="text-area-2">
+                        <div class="img-wrapper">
+                            <img src="./assets/images/talent_3.png" alt="four cut" class="bg">
+                        </div>
+                        <p class="sub-title highlight">With years of experience</p>
+                        <p class="desc">
+                            providing online education, I've learned
+                            <br>that the key to supporting you is <span class="italic">helping
+                                <br>you uncover</span> your strengths and passions.
+                        </p>
+                    </div>
+                    <div class="text-area-3">
+                        <div class="img-wrapper">
+                            <img src="./assets/images/xxx.png" alt="xxx">
+                        </div>
+                        <div class="img-wrapper"><img src="./assets/images/talent_4.png" alt="four cut"></div>
+                        <p data-split='true'>YOUR INTERESTS AND VALUES ARE <br>YOUR GUIDING STARS <span
+                                class="highlight">TO
+                                HAPPINESS</span><br><span class="highlight">AND SUCCESS.</span></p>
+                    </div>
+                    <div class="text-area-4">
+                        <p class="sub-title highlight">Our Quiz is designed to assist you</p>
+                        <p class="desc">
+                            in exploring <span class="italic">new career paths</span> that you
+                            <br>may not have previously known about or
+                            <br>thought possible for you.
+                        </p>
+                        <a href="#" class="link">
+                            [
+                            <span class="hover-wrap">
+                                <span class="line line1" data-split='true'>Take the Quiz</span>
+                                <span class="line line2" data-split='true'>Take the Quiz</span>
+                            </span>
+                            ]
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-community">
+                <div class="inner">
+                    <h2 class="desc" data-split='true'>Join our community of 30,000+ students!</h2>
+                    <h2 class="title" data-split='true'>MORE THAN 30,000 GIRLS <br>FROM <span class="highlight">193
+                            COUNTRIES</span>HAVE<br>ALREADY TAKEN OUR QUIZ.</h2>
+                    <p class="sub-title">Here's What they are saying:</p>
+                </div>
+                <div class="img-wrapper">
+                    <img src="./assets/images/community_1.png" alt="community review" class="img-left">
+                    <img src="./assets/images/community_2.png" alt="complete avg" class="img-right">
+                </div>
+                <a href="#" class="link">
+                    [
+                    <span class="hover-wrap">
+                        <span class="line line1" data-split='true'>Take the Quiz</span>
+                        <span class="line line2" data-split='true'>Take the Quiz</span>
+                    </span>
+                    ]
+                </a>
+            </section>
+            <section class="sc-social">
+                <div class="inner">
+                    <h2 class="title" data-split='true'><span class="highlight">FOLLOW US</span><br>FOR MORE</h2>
+                    <ul class="list">
+                        <li class="item">
+                            <a href="#" class="link text">
+                                <span class="number">0</span>
+                                [
+                                <span class="hover-wrap">
+                                    <span class="line line1" data-split='true'>Instagram</span>
+                                    <span class="line line2" data-split='true'>Instagram</span>
+                                </span>
+                                ]
+                                <span class="number">1</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="link text">
+                                <span class="number">0</span>
+                                [
+                                <span class="hover-wrap">
+                                    <span class="line line1" data-split='true'>TikTok</span>
+                                    <span class="line line2" data-split='true'>TikTok</span>
+                                </span>
+                                ]
+                                <span class="number">1</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="link text">
+                                <span class="number">0</span>
+                                [
+                                <span class="hover-wrap">
+                                    <span class="line line1" data-split='true'>Discord</span>
+                                    <span class="line line2" data-split='true'>Discord</span>
+                                </span>
+                                ]
+                                <span class="number">1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sticky-wrapper">
+                    <div class="sticky">
+                        <div class="bg">
+                            <img src="./assets/images/design-you.png" alt>
+                        </div>
+                        <div class="img-wrapper">
+                            <div class="img-area img-area-1">
+                                <img src="./assets/images/social_1.png" alt>
+                                <span>Are you a girl who loves technology and creativity?</span>
+                            </div>
+                            <div class="img-area img-area-2">
+                                <img src="./assets/images/social_2.png" alt>
+                                <span>So go out there and make something amazing!</span>
+                            </div>
+                            <div class="img-area img-area-3">
+                                <img src="./assets/images/social_3.png" alt>
+                                <span>Take the Quiz</span>
+                            </div>
+                            <div class="img-area img-area-4">
+                                <img src="./assets/images/social_4.png" alt>
+                                <span>This will help you make a more time informed decision about your future career.</span>
+                            </div>
+                            <div class="img-area img-area-5">
+                                <img src="./assets/images/social_5.png" alt>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="fixed-nav">
+                <div class="left">
+                    <a href="#" class="link">
+                        <span class="hover-wrap">
+                            <span class="line line1" data-split='true'>Start here</span>
+                            <span class="line line2" data-split='true'>Start here</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="#" class="link">
+                        <span class="hover-wrap">
+                            <span class="line line1" data-split='true'>Take the Quiz</span>
+                            <span class="line line2" data-split='true'>Take the Quiz</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="bg">
+                <img src="./assets/images/footer_bg.png" alt>
+            </div>
+            <div class="inner">
+                <a class="link-quiz"><span class="title" data-split='true'>Take the Quiz</span></a>
+                <form class="form-quiz">
+                    <fieldset>
+                        <legend class="blind">form quiz</legend>
+                        <div class="form-wrapper">
+                            <h2 class="title">Shoot us a <span class="highlight">message</span></h2>
+                            <div class="input-area input-area-1">
+                                <label>Name</label>
+                                <input type="text" class="input-name">
+                            </div>
+                            <div class="input-area input-area-2">
+                                <label>E-mail</label>
+                                <input type="email" class="input-email">
+                            </div>
+                            <div class="input-area input-area-3">
+                                <label>What's on your mind?</label>
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                        <button class="link button-area">
+                            <span class="hover-wrap">
+                                <span class="line line1" data-split='true'>[SEND]</span>
+                                <span class="line line2" data-split='true'>[SEND]</span>
+                            </span>
+                        </button>
+                    </fieldset>
+                </form>
+                <div class="copyright">
+                    <div class="top">
+                        <div class="left">
+                            <span>Emmop</span>
+                        </div>
+                        <div class="right">
+                            <img src="./assets/images/copyright.svg" alt>
+                            <span>2025</span>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="title" data-split='true'>All rights reserved</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
