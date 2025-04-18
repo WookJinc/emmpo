@@ -9,7 +9,7 @@ $(window).on('load', function () {
     lenis.on('scroll', ScrollTrigger.update);
 
     gsap.ticker.add((time) => {
-        lenis.raf(time * 300);
+        lenis.raf(time * 600);
     });
 
     gsap.ticker.lagSmoothing(0);

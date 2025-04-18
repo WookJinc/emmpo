@@ -111,7 +111,7 @@
 }
 
 .sc-career .text-area .title {
-    font-size: 144px;
+    font-size: clamp(96px, 7.5vw, 144px);
     font-weight: 700;
     font-family: var(--font-bold);
     text-transform: uppercase;
@@ -174,7 +174,7 @@
     position: relative;
     text-align: center;
     font-family: var(--font-bold);
-    font-size: 130px;
+    font-size: clamp(80px, 6.7vw, 130px);
     letter-spacing: -8px;
     line-height: 0.85;
     z-index: 3;
@@ -399,6 +399,7 @@
     left: 0;
     z-index: -1;
     width: 100%;
+    height: 100%;
 }
 
 .sc-explore-exciting .bg .img-wrapper img {
@@ -424,7 +425,7 @@
 .sc-explore-exciting .title {
     padding-bottom: 5%;
     text-align: center;
-    font-size: 112px;
+    font-size: clamp(64px, 5.8vw, 112px);
     font-weight: 700;
     line-height: .8;
     letter-spacing: -5px;
@@ -541,7 +542,7 @@
 
 .sc-discover .title {
     padding-bottom: 15%;
-    font-size: 112px;
+    font-size: clamp(80px, 5.8vw, 112px);
     font-weight: 700;
     line-height: .8;
     letter-spacing: -5px;
@@ -637,7 +638,7 @@
 
 .sc-science .title {
     padding-bottom: 5%;
-    font-size: 112px;
+    font-size: clamp(80px, 5.8vw, 112px);
     font-weight: 700;
     line-height: .8;
     letter-spacing: -5px;
@@ -790,7 +791,7 @@
 
 .sc-person .title {
     padding-bottom: 15%;
-    font-size: 112px;
+    font-size: clamp(80px, 5.8vw, 112px);
     font-weight: 700;
     line-height: .8;
     letter-spacing: -5px;
@@ -901,7 +902,7 @@
     max-width: 1200px;
     padding-bottom: 2%;
     text-align: center;
-    font-size: 96px;
+    font-size: clamp(64px, 5vw, 96px);
     font-weight: 700;
     line-height: .8;
     letter-spacing: -5px;
@@ -1068,7 +1069,7 @@
 
 .sc-community .title {
     padding-bottom: 5%;
-    font-size: 64px;
+    font-size: clamp(36px, 3.3vw, 64px);
     font-weight: 700;
     line-height: .8;
     letter-spacing: -0.5px;
@@ -1139,7 +1140,7 @@
 .sc-social .title {
     margin-bottom: 7.5%;
     text-align: center;
-    font-size: 112px;
+    font-size: clamp(64px, 5.8vw, 112px);
     font-weight: 700;
     letter-spacing: -0.5px;
     line-height: .8;
@@ -1488,16 +1489,7 @@
         font-size: 24px;
     }
 
-    /* sc-career */
-    .sc-career .text-area .title {
-        font-size: 128px;
-    }
-
     /* sc-explore-where */
-    .sc-explore-where .title-group .title {
-        font-size: 112px;
-    }
-
     .sc-explore-where .title-group .img-wrapper {
         width: 100px;
     }
@@ -1542,10 +1534,6 @@
     }
 
     /* sc-explore-exciting */
-    .sc-explore-exciting .title {
-        font-size: 96px;
-    }
-
     .sc-explore-exciting .item.show {
         padding-bottom: 15%;
     }
@@ -1560,10 +1548,6 @@
     }
 
     /* sc-discover */
-    .sc-discover .title {
-        font-size: 96px;
-    }
-
     .sc-discover .subtitle {
         font-size: 20px;
     }
@@ -1588,10 +1572,6 @@
     }
 
     /* sc-science */
-    .sc-science .title {
-        font-size: 96px;
-    }
-
     .sc-science .desc p {
         font-size: 20px;
     }
@@ -1616,10 +1596,6 @@
     }
 
     /* sc-person */
-    .sc-person .title {
-        font-size: 96px;
-    }
-
     .sc-person .img-group .col-1 .img-wrapper:first-of-type {
         width: 180px;
         height: 180px;
@@ -1645,10 +1621,6 @@
     }
 
     /* sc-talent */
-    .sc-talent .title {
-        font-size: 80px;
-    }
-
     .sc-talent .row-1 img {
         width: 90%;
     }
@@ -1688,10 +1660,6 @@
     }
 
     /* sc-community */
-    .sc-community .title {
-        font-size: 48px;
-    }
-
     .sc-community .desc {
         font-size: 28px;
     }
@@ -1705,10 +1673,6 @@
     }
 
     /* sc-social */
-    .sc-social .title {
-        font-size: 96px;
-    }
-
     .sc-social .list .item .text {
         font-size: 48px;
     }
@@ -1747,16 +1711,7 @@
         font-size: 24px;
     }
 
-    /* sc-career */
-    .sc-career .text-area .title {
-        font-size: 96px;
-    }
-
     /* sc-explore-where */
-    .sc-explore-where .title-group .title {
-        font-size: 80px;
-    }
-
     .sc-career .text-area .desc span {
         font-size: 28px;
     }
@@ -1808,10 +1763,6 @@
     }
 
     /* sc-explore-exciting */
-    .sc-explore-exciting .title {
-        font-size: 64px;
-    }
-
     .sc-explore-exciting .item.show {
         padding-bottom: 15%;
     }
@@ -1829,10 +1780,6 @@
     }
 
     /* sc-discover */
-    .sc-discover .title {
-        font-size: 80px;
-    }
-
     .sc-discover .subtitle {
         font-size: 16px;
     }
@@ -1867,10 +1814,6 @@
     }
 
     /* sc-science */
-    .sc-science .title {
-        font-size: 80px;
-    }
-
     .sc-science .desc p {
         font-size: 18px;
     }
@@ -1895,10 +1838,6 @@
     }
 
     /* sc-person */
-    .sc-person .title {
-        font-size: 80px;
-    }
-
     .sc-person .img-group .col-1 .img-wrapper:first-of-type {
         width: 150px;
         height: 150px;
@@ -1924,10 +1863,6 @@
     }
 
     /* sc-talent */
-    .sc-talent .title {
-        font-size: 64px;
-    }
-
     .sc-talent .row-1 img {
         width: 80%;
     }
@@ -1968,10 +1903,6 @@
     }
 
     /* sc-community */
-    .sc-community .title {
-        font-size: 36px;
-    }
-
     .sc-community .desc {
         font-size: 24px;
     }
@@ -1985,10 +1916,6 @@
     }
 
     /* sc-social */
-    .sc-social .title {
-        font-size: 64px;
-    }
-
     .sc-social .list .item .text {
         font-size: 32px;
     }
