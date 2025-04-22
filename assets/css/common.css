@@ -33,5 +33,6 @@
 }
 
 .hover-wrap .line2 {
+    -webkit-transform: translateY(100%);
     transform: translateY(100%);
 }
